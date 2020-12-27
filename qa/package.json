@@ -1,0 +1,32 @@
+{
+  "name": "qa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "karma:init": "karma init",
+    "karma:test": "karma start",
+    "backstop:init": "backstop init",
+    "backstop:test": "backstop test",
+    "selenium:unit": "node ./tests/e2e/baidu.spec.js",
+    "mocha:test": "node ./mochaRunner.js",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "backstopjs": "^5.0.7",
+    "cypress": "^6.2.0",
+    "karma": "^5.2.3",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "^4.0.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "phantomjs": "^2.1.7",
+    "puppeteer": "^5.5.0",
+    "rize": "^0.9.0",
+    "selenium-webdriver": "^4.0.0-alpha.8",
+    "superagent": "^6.1.0",
+    "treer": "^1.0.4"
+  }
+}

@@ -1,0 +1,8 @@
+qa
+├─karma.conf.js
+├─package.json
+├─src
+|  └index.js
+├─tests
+|   ├─unit
+|   |  └index.spec.js
