@@ -1,0 +1,11 @@
+[2021-01-12T20:24:31.125] [ERROR] globalError - Error: 自定义错误
+    at _callee$ (/Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:9:15)
+    at tryCatch (/Users/demigodliu/个人项目/yd-books-2/node_modules/_regenerator-runtime@0.13.7@regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/demigodliu/个人项目/yd-books-2/node_modules/_regenerator-runtime@0.13.7@regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/demigodliu/个人项目/yd-books-2/node_modules/_regenerator-runtime@0.13.7@regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:14:103)
+    at _next (/Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:16:194)
+    at /Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:16:364
+    at new Promise (<anonymous>)
+    at /Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:16:97
+    at actionIndex (/Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:71:29)
