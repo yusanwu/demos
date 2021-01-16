@@ -13,7 +13,6 @@ function initController(app) {
     router.get('/', indexController.actionIndex);
     router.get('/api/getBooksList', apiController.actionBooksList);
     router.get('/books/list', booksController.actionBooksList);
-    router.get('/books/create', booksController.actionBooksCreate);
     app
         .use(router.routes())
         .use(router.allowedMethods());

@@ -1,1 +1,1 @@
-NODE_ENV=development nodemon  ./dist/app.js
+NODE_ENV=development nodemon --exec 'babel-node ./app.js'

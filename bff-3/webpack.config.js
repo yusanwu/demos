@@ -8,12 +8,7 @@ const {
 const {
     sync
 } = require('glob');
-const {
-    resolve,
-    join
-} = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlAfterPlugin = require('./config/HtmlAfterPlugin');
 
 
 
@@ -31,7 +26,7 @@ for (let item of files) {
             filename: `../views/${dist}/pages/${template}.html`,
             template: `./src/web/views/${dist}/pages/${template}.html`,
             // books-list
-            chunks: ['runtime', entryKey],
+            chunks: ['runtime',entryKey],
             inject: false
         }))
     }
@@ -43,13 +38,7 @@ const webpackConfig = {
         runtimeChunk: 'single',
     },
     plugins: [
-        ..._plugins,
-        new HtmlAfterPlugin(),
-    ],
-    resolve:{
-        alias: {
-            "@":resolve('./src/web')
-        }
-    }
+        ..._plugins
+    ]
 };
 module.exports = merge(webpackConfig, _mergeConfig);

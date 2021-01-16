@@ -1,4 +1,4 @@
-{% extends '@layouts/layout.html' %}
+{% extends '../layouts/layout.html' %}
 
 {% block title %} 图书列表页 {% endblock %}
 
@@ -7,8 +7,7 @@
 {% endblock %}
 
 {% block content %}
-    {% include "@components/banner/banner.html" %}
-    <h1>图书列表</h1>
+    {% include "../../../components/banner.html" %}
 {% endblock %}
 
 {% block scripts %} 
