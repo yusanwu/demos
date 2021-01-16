@@ -1,0 +1,17 @@
+[2020-11-15T20:18:20.637] [ERROR] globalError - 自定义错误
+[2020-11-15T20:19:03.690] [ERROR] globalError - ctx.render2 is not a function
+[2020-11-15T20:19:12.026] [ERROR] globalError - ctx.render2 is not a function
+[2020-11-15T20:21:35.922] [ERROR] globalError - Error: 自定义错误
+    at actionIndex (/Users/wanggenzhen/Desktop/yd-books/controllers/IndexController.js:8:15)
+    at dispatch (/Users/wanggenzhen/Desktop/yd-books/node_modules/koa-compose/index.js:42:32)
+    at /Users/wanggenzhen/Desktop/yd-books/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/wanggenzhen/Desktop/yd-books/node_modules/koa-compose/index.js:42:32)
+    at /Users/wanggenzhen/Desktop/yd-books/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wanggenzhen/Desktop/yd-books/node_modules/@koa/router/lib/router.js:377:31)
+    at dispatch (/Users/wanggenzhen/Desktop/yd-books/node_modules/koa-compose/index.js:42:32)
+    at /Users/wanggenzhen/Desktop/yd-books/middlewares/errorHandler.js:15:19
+    at dispatch (/Users/wanggenzhen/Desktop/yd-books/node_modules/koa-compose/index.js:42:32)
+    at /Users/wanggenzhen/Desktop/yd-books/middlewares/errorHandler.js:7:23
+[2020-11-15T20:52:20.673] [ERROR] globalError - actionBooksList is not defined
+[2020-11-15T21:19:56.521] [ERROR] globalError - Cannot call a class as a function
+[2020-11-15T21:19:58.118] [ERROR] globalError - Cannot call a class as a function
