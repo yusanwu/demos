@@ -1,0 +1,6 @@
+[2020-11-29T21:46:50.326] [ERROR] globalError - ENOENT: no such file or directory, open '/Users/wanggenzhen/Desktop/yd-book-3/dist/views/layouts/layout.html'
+[2020-11-29T21:57:30.956] [ERROR] globalError - ENOENT: no such file or directory, open '/Users/wanggenzhen/Desktop/yd-book-3/dist/views/layouts/layout.html'
+[2020-11-29T21:57:58.337] [ERROR] globalError - ENOENT: no such file or directory, open '/Users/wanggenzhen/Desktop/yd-book-3/dist/views/layouts/layout.html'
+[2020-11-29T21:57:59.247] [ERROR] globalError - ENOENT: no such file or directory, open '/Users/wanggenzhen/Desktop/yd-book-3/dist/views/layouts/layout.html'
+[2020-11-29T21:58:38.388] [ERROR] globalError - ENOENT: no such file or directory, open '/Users/wanggenzhen/Desktop/yd-book-3/dist/componets/banner.html'
+[2020-11-29T21:59:11.168] [ERROR] globalError - ENOENT: no such file or directory, open '/Users/wanggenzhen/Desktop/yd-book-3/dist/componets/banner/banner.html'
