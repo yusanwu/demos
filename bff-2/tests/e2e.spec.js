@@ -1,7 +1,11 @@
-const Rize = require('rize');
-const rize = new Rize()
+const Rize = require("rize");
+const rize = new Rize();
 rize
-    .goto('http://localhost:3000/books/list')
-    .assertTitle('图书列表')
-    .assertSee('点击1231')
-    .end() // Don't forget to call `end` function to exit browser!
+    // 打开项目中的页面
+    .goto("http://localhost:3000/books/list")
+    // 检查页面标题
+    .assertTitle("图书列表")
+    // 检测页面内容
+    .assertSee("水浒传")
+    // 一定要记住关闭无头浏览器！
+    .end();

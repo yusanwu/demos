@@ -1,4 +1,3 @@
 {
-    // "plugins": ["@babel/plugin-transform-modules-systemjs"],
-    "presets": ["@babel/preset-env"]
+  "presets": ["@babel/preset-env"]
 }

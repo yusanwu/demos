@@ -1,11 +1,87 @@
-[2021-01-12T20:24:31.125] [ERROR] globalError - Error: 自定义错误
-    at _callee$ (/Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:9:15)
-    at tryCatch (/Users/demigodliu/个人项目/yd-books-2/node_modules/_regenerator-runtime@0.13.7@regenerator-runtime/runtime.js:63:40)
-    at Generator.invoke [as _invoke] (/Users/demigodliu/个人项目/yd-books-2/node_modules/_regenerator-runtime@0.13.7@regenerator-runtime/runtime.js:293:22)
-    at Generator.next (/Users/demigodliu/个人项目/yd-books-2/node_modules/_regenerator-runtime@0.13.7@regenerator-runtime/runtime.js:118:21)
-    at asyncGeneratorStep (/Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:14:103)
-    at _next (/Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:16:194)
-    at /Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:16:364
+[2021-01-17T20:22:58.121] [ERROR] globalError - Error: 这是一个错误信息
+    at _callee$ (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:7:15)
+    at tryCatch (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:14:103)
+    at _next (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:194)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:364
     at new Promise (<anonymous>)
-    at /Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:16:97
-    at actionIndex (/Users/demigodliu/个人项目/yd-books-2/controllers/IndexController.js:71:29)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:97
+    at actionIndex (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:71:29)
+[2021-01-17T20:34:54.592] [ERROR] globalError - Error: 这是一个错误信息
+    at _callee$ (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:7:15)
+    at tryCatch (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:14:103)
+    at _next (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:194)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:364
+    at new Promise (<anonymous>)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:97
+    at actionIndex (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:71:29)
+[2021-01-17T20:50:41.249] [ERROR] globalError - Error: 这是一个错误信息
+    at _callee$ (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:7:15)
+    at tryCatch (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:14:103)
+    at _next (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:194)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:364
+    at new Promise (<anonymous>)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:97
+    at actionIndex (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:71:29)
+[2021-01-17T20:50:42.068] [ERROR] globalError - Error: 这是一个错误信息
+    at _callee$ (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:7:15)
+    at tryCatch (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:14:103)
+    at _next (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:194)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:364
+    at new Promise (<anonymous>)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:97
+    at actionIndex (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:71:29)
+[2021-01-17T20:50:42.485] [ERROR] globalError - Error: 这是一个错误信息
+    at _callee$ (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:7:15)
+    at tryCatch (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:14:103)
+    at _next (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:194)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:364
+    at new Promise (<anonymous>)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:97
+    at actionIndex (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:71:29)
+[2021-01-17T20:50:42.725] [ERROR] globalError - Error: 这是一个错误信息
+    at _callee$ (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:7:15)
+    at tryCatch (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/demigodliu/个人项目/bff-2/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:14:103)
+    at _next (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:194)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:364
+    at new Promise (<anonymous>)
+    at /Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:16:97
+    at actionIndex (/Users/demigodliu/个人项目/bff-2/controllers/IndexController.js:71:29)
+[2021-01-17T21:11:30.175] [ERROR] globalError - ReferenceError: ofdata is not defined
+    at eval (eval at precompile (/Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:7:13)
+    at Object.eval [as tpl] (eval at precompile (/Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:28:3)
+    at compiled (/Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:664:18)
+    at /Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:604:20
+    at /Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:735:9
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+[2021-01-17T21:11:46.742] [ERROR] globalError - ReferenceError: ofdata is not defined
+    at eval (eval at precompile (/Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:7:13)
+    at Object.eval [as tpl] (eval at precompile (/Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:28:3)
+    at compiled (/Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:664:18)
+    at /Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:604:20
+    at /Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:735:9
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+[2021-01-17T21:11:47.277] [ERROR] globalError - ReferenceError: ofdata is not defined
+    at eval (eval at precompile (/Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:7:13)
+    at Object.eval [as tpl] (eval at precompile (/Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:28:3)
+    at compiled (/Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:664:18)
+    at /Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:604:20
+    at /Users/demigodliu/个人项目/bff-2/node_modules/swig-templates/lib/swig.js:735:9
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)

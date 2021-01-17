@@ -1,1 +1,0 @@
-(self.webpackChunkyd_books=self.webpackChunkyd_books||[]).push([[230],{780:(s,e,n)=>{"use strict";n.d(e,{Z:()=>o});const o={init(){console.log("banner")}}},27:(s,e,n)=>{"use strict";n(780).Z.init()}},0,[[27,666]]]);

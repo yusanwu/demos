@@ -1,2 +1,11 @@
-const data = "前端数据";
+const data = [
+    {
+        name: "Tom",
+        age: 6
+    },{
+        name: "Jerry",
+        age: 8
+    }
+];
+
 export default data;

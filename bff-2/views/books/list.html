@@ -1,33 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>图书列表</title>
 </head>
-
 <body>
     <ul>
-        {% for item in data %}
-        <li>[[item.id]]-[[item.name]]</li>
+        {% for item in data  %}
+            <li>《[[item.name]]》 - 售价：[[item.price]]</li>
         {% endfor %}
     </ul>
-    <button id="btn">点击</button>
-    <script src="/js/myUnderscore.js"></script>
-    <script>
-        // _.each([1,2,3],item => {
-        //     console.log('item',item)
-        // })
-        // _([1,2,3]).each(item=>{
-        //     console.log('item1',item)
-        // })
-        function log(){
-            console.log(+ new Date());
-        }
-        const logHandle = _.throttle(log,2000);
-        document.querySelector('#btn').onclick = logHandle;
-    </script>
 </body>
-
 </html>
