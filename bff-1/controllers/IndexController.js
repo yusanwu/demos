@@ -1,14 +1,15 @@
-const Controller = require('./Controller');
+let Controller = require("./Controller");
 class IndexController extends Controller {
-    constructor(){
+    constructor() {
         super();
     }
     async actionIndex(ctx){
-        // ctx.render
-        // throw new Error('自定义错误');
-        ctx.body = await ctx.render('index',{
-            message:"后端数据"
+        // throw new Error("这是一个错误信息");
+        // ctx.body = "<p>路由配置成功了~</p>";
+        ctx.body = await ctx.render("index", {
+            message: "后端数据渲染"
         });
     }
 }
+
 module.exports = IndexController;

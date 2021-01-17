@@ -1,51 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>非cli项目</title>
 </head>
-
+<!-- 测试 vue 引入和 swig 模板语法案例 START -->
 <body>
-    [[message]]
+    <p>[[ message ]]</p>
     <div id="app">
-        <input type="text" v-model="message">
-        {{ message }}
+        <input type="text" v-model="msg"/>
+        <p>{{ msg }}</p>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-
-    <script src="/js/index.js"></script>
-    <script type="module">
-        import('/js/data.js').then(res=>{
-            console.log('res',res);
-        })
-    </script>
-    <script>
-        var check = document.createElement('script');
-        if (!('noModule' in check) && 'onbeforeload' in check) {
-            var support = false;
-            document.addEventListener('beforeload', function (e) {
-                if (e.target === check) {
-                    support = true;
-                } else if (!e.target.hasAttribute('nomodule') || !support) {
-                    return;
-                }
-                e.preventDefault();
-            }, true);
-
-            check.type = 'module';
-            check.src = '.';
-            document.head.appendChild(check);
-            check.remove();
-        }
-    </script>
-    <script nomodule src="https://cdn.staticfile.org/systemjs/6.7.1/system.js"></script>
-    <script nomodule>
-        System.import('/js/data_bundle.js').then(res => {
-            console.log('res', res);
-        })
-    </script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            msg: "hello world"
+        }
+    });
+</script>
+<!-- 测试 vue 引入和 swig 模板语法案例 END -->
 
+<!-- 测试浏览器直接使用 import 语法 START -->
+<script type="module">
+    import('/js/data.js').then(res => {
+        console.log(res);
+    });
+</script>
+<script nomodule src="https://cdn.staticfile.org/systemjs/6.7.1/system.js"></script>
+<script nomodule>
+    System.import('/js/data_bundle.js').then(res => {
+        console.log('res', res);
+    })
+</script>
+<!-- 测试浏览器直接使用 import 语法 END -->
 </html>

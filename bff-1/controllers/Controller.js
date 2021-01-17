@@ -1,6 +1,7 @@
-class Controller{
+class Controller {
     log(){
-        console.log('log');
+        console.log("log");
     }
 }
+
 module.exports = Controller;
