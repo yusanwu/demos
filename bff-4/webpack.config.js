@@ -1,8 +1,9 @@
+const { resolve } = require("path");
 const { argv } = require("yargs");
 const { merge } = require("webpack-merge");
 const { sync } = require("glob");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { join } = require("path");
+const HtmlAfterPlugin = require("./config/HtmlAfterPlugin");
 
 /* 动态引入对应环境的配置文件 */
 const _mode = argv.mode || "development";
@@ -23,7 +24,7 @@ for(let item of files){
             filename: `../views/${dist}/pages/${template}.html`,
             template: `./src/web/views/${dist}/pages/${template}.html`,
             chunks: ['runtime', entryKey],
-            // inject: false
+            inject: false
         }));
     }
 }
@@ -31,11 +32,17 @@ for(let item of files){
 const webpackConfig = {
     entry: _entry,
     optimization: {
-        runtimeChunk: 'single'
+        runtimeChunk: 'single',
     },
     plugins: [
-        ..._plugins
-    ]
+        ..._plugins,
+        new HtmlAfterPlugin()
+    ],
+    resolve: {
+        alias: {
+            "@": resolve("./src/web")
+        }
+    }
 }
 
 module.exports = merge(webpackConfig, _mergeConfig);

@@ -1,2 +1,2 @@
-import banner from "../../components/banner.js";
+import banner from "../../components/banner/banner.js";
 banner.init();
