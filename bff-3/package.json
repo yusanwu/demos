@@ -14,7 +14,7 @@
     "start": "scripty",
     "build": "npm run client:prod & npm run server:prod",
     "test:e2e": "node ./tests/e2e.spec.js",
-    "test:api": "mocha ./tests/api.spec.js",
+    "test:api": "mocha ./tests/api.spec.js", 
     "jscpd:test": "jscpd -l 1 -k 10 ./demos",
     "demo1": "echo demo1",
     "demo2": "echo demo2",
