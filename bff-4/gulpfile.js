@@ -25,7 +25,7 @@ function builddev() {
             .pipe(gulp.dest('dist'));
     })
 }
-
+ 
 // 目的二：将上产环境 ES6 语法进行编译
 function buildprod() {
     return gulp.src(entry)
